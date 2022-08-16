@@ -1,0 +1,31 @@
+{
+    "name": "wakeworks/negativecaptcha",
+    "description": "Silverstripe 4 spam protection field using honeypots and other methods",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "userforms",
+        "forms",
+        "spam",
+        "spamprotection"
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/spamprotection": "^3.0",
+        "illuminate/encryption": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "WakeWorks\\NegativeCaptcha\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
+}
